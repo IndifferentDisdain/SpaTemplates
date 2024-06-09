@@ -18,7 +18,7 @@ app.UseRouting();
 
 app.UseEndpoints(endpoints =>
 {
-    endpoints.MapControllers();
+    _ = endpoints.MapControllers();
 });
 
 app.UseSpa(spa => {
@@ -34,8 +34,8 @@ app.UseSpa(spa => {
             if (context.File.Name == "index.html")
             {
                 // more info on this header: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control#preventing_caching
-                context.Context.Response.Headers.Add("Cache-Control", "no-store, max-age=0");
-                context.Context.Response.Headers.Add("Expires", "-1");
+                context.Context.Response.Headers.Append("Cache-Control", "no-store, max-age=0");
+                context.Context.Response.Headers.Append("Expires", "-1");
             }
         }
     };
