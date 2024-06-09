@@ -2,7 +2,7 @@
     "$schema": "http://json.schemastore.org/template",
     "author": "Paul Irwin",
     "classifications": ["Web"],
-    "name": "ASP.NET Core 6 with Angular + Material",
+    "name": "ASP.NET Core 8 with Angular + Material",
     "shortName": "f23-angular-material",
     "defaultName": "AngularMaterialWebApp",
     "identity": "F23.SpaTemplates.AngularMaterial",

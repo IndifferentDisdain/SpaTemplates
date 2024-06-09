@@ -12,16 +12,16 @@ dotnet new --install F23.SpaTemplates
 
 ### f23-angular-material
 
-This template is a minimal ASP.NET Core 6 app with Angular v16 and Angular Material.
+This template is a minimal ASP.NET Core 8 app with Angular v18 and Angular Material.
 
-How does this compare to the `dotnet new angular` template in .NET 6?
+How does this compare to the `dotnet new angular` template in .NET 8?
 
 | `dotnet new angular` | `dotnet new f23-angular-material` |
 | --- | --- |
 | ❌ Slow inner-loop dev experience with the proxy and HTTPS cert startup code | ✅ Fast inner-loop with separate processes for ASP.NET and `npm start` (see README in generated project) |
 | ❌ Angular proxy code does not match how it's usually used when deployed to production | ✅ Closer match to production |
 | ❌ Does an `npm install` on launch | ✅ Faster launch by letting you run `npm i` only when needed |
-| ❌ Angular v12 | ✅ Angular v16 |
+| ❌ Angular v12 | ✅ Angular v18 |
 | ❌ Uses Bootstrap with jQuery | ✅ Angular Material included, no jQuery |
 | ❌ Uses CSS for stylesheets | ✅ Uses SCSS for stylesheets |
 | ❌ Adds SQLite and migrations (with identity option) | ✅ Only minimal default code, you're free to add your own database/identity/etc |

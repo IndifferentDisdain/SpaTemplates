@@ -2,13 +2,13 @@
 
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <PackageVersion>1.0.3</PackageVersion>
+    <PackageVersion>2.0.0</PackageVersion>
     <PackageId>F23.SpaTemplates</PackageId>
     <Title>feature[23] ASP.NET Core SPA Templates</Title>
     <Authors>feature[23]</Authors>
     <Description>Templates for creating ASP.NET Core Single-Page-App web applications with Angular.</Description>
     <PackageTags>dotnet-new;templates;feature23</PackageTags>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <NoDefaultExcludes>true</NoDefaultExcludes>
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>
